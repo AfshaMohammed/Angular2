@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ChildComponent } from './child/child.component';
 import { LayoutComponent } from './layout/layout.component';
+import { DataComponent } from './data/data.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { LayoutComponent } from './layout/layout.component';
     AppComponent,
     HomeComponent,
     ChildComponent,
-    LayoutComponent
+    LayoutComponent,
+    DataComponent
   
     
   ],

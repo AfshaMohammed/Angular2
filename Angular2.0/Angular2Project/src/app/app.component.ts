@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {HomeComponent} from './home/index';
 import { ChildComponent } from './child/index';
 import {LayoutComponent} from './layout/index';
+import {DataComponent} from './data/index';
 
 @Component({
   selector: 'app-root',
