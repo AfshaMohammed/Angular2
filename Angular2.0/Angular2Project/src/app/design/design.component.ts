@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./design.component.css']
 })
 export class DesignComponent implements OnInit {
-
+	data = {
+		name: "Mike",
+		color: "black"
+	};;
   constructor() { }
 
   ngOnInit() {
