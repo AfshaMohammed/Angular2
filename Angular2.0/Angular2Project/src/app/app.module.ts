@@ -9,8 +9,7 @@ import { ChildComponent } from './child/child.component';
 import { LayoutComponent } from './layout/layout.component';
 import { DataComponent } from './data/data.component';
 import { DesignComponent } from './design/design.component';
-
-
+import { PassComponent } from './pass/pass.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,9 @@ import { DesignComponent } from './design/design.component';
     ChildComponent,
     LayoutComponent,
     DataComponent,
-    DesignComponent
+    DesignComponent,
+    PassComponent
+ 
     
   ],
   imports: [
