@@ -6,15 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./design.component.css']
 })
 export class DesignComponent implements OnInit {
-	designTitle = "Welcome to Designers..!";
-	firstName = "Afsha";
-	myBoolean = true;
-	alertMe(){
-		alert("Hey! it is Event Binding!");
-	}
-	welcome(val){
-		alert(val);
-	}
+
   constructor() { }
 
   ngOnInit() {

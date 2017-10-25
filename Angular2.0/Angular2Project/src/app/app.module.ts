@@ -11,6 +11,7 @@ import { DataComponent } from './data/data.component';
 import { DesignComponent } from './design/design.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,6 @@ import { DesignComponent } from './design/design.component';
     LayoutComponent,
     DataComponent,
     DesignComponent
-  
     
   ],
   imports: [
