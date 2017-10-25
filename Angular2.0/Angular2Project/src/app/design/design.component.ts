@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DesignComponent implements OnInit {
 	designTitle = "Welcome to Designers..!";
+	firstName = "Afsha";
+	myBoolean = true;
   constructor() { }
 
   ngOnInit() {
