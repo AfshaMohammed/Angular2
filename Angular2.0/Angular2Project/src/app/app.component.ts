@@ -3,6 +3,7 @@ import {HomeComponent} from './home/index';
 import { ChildComponent } from './child/index';
 import {LayoutComponent} from './layout/index';
 import {DataComponent} from './data/index';
+import {DesignComponent} from './design/index';
 
 @Component({
   selector: 'app-root',

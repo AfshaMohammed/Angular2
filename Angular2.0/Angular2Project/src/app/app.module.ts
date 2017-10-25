@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { ChildComponent } from './child/child.component';
 import { LayoutComponent } from './layout/layout.component';
 import { DataComponent } from './data/data.component';
+import { DesignComponent } from './design/design.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { DataComponent } from './data/data.component';
     HomeComponent,
     ChildComponent,
     LayoutComponent,
-    DataComponent
+    DataComponent,
+    DesignComponent
   
     
   ],
