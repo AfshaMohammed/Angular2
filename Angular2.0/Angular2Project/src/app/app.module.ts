@@ -10,6 +10,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { DataComponent } from './data/data.component';
 import { DesignComponent } from './design/design.component';
 import { PassComponent } from './pass/pass.component';
+import { CustomComponent } from './custom/custom.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PassComponent } from './pass/pass.component';
     LayoutComponent,
     DataComponent,
     DesignComponent,
-    PassComponent
+    PassComponent,
+    CustomComponent
  
     
   ],
