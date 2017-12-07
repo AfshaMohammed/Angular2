@@ -22,7 +22,7 @@ import { CustomComponent } from './custom/custom.component';
     DesignComponent,
     PassComponent,
     CustomComponent
- 
+    
     
   ],
   imports: [

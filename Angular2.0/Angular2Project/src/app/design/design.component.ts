@@ -10,6 +10,10 @@ export class DesignComponent implements OnInit {
 		name: "Mike",
 		color: "black"
 	};;
+
+  onSubmit(value:any){
+      console.log(value);
+  }
   constructor() { }
 
   ngOnInit() {
