@@ -10,7 +10,7 @@ export class DesignComponent implements OnInit {
 		name: "Mike",
 		color: "black"
 	};;
-
+myName = "Afsha"
   onSubmit(value:any){
       console.log(value);
   }
