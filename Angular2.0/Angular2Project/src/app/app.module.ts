@@ -14,7 +14,8 @@ import { DataComponent } from './data/data.component';
 import { DesignComponent } from './design/design.component';
 import { PassComponent } from './pass/pass.component';
 import { CustomComponent } from './custom/custom.component';
-import {MyHighLighterDirective} from './app.myhighlighter';
+
+
 
 @NgModule({
   declarations: [
@@ -25,8 +26,7 @@ import {MyHighLighterDirective} from './app.myhighlighter';
     DataComponent,
     DesignComponent,
     PassComponent,
-    CustomComponent,
-    MyHighLighterDirective
+    CustomComponent
   ],
 
   imports: [
