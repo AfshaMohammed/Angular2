@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import {ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ChildComponent } from './child/child.component';
@@ -12,6 +14,7 @@ import { DataComponent } from './data/data.component';
 import { DesignComponent } from './design/design.component';
 import { PassComponent } from './pass/pass.component';
 import { CustomComponent } from './custom/custom.component';
+import {MyHighLighterDirective} from './app.myhighlighter';
 
 @NgModule({
   declarations: [
@@ -22,16 +25,17 @@ import { CustomComponent } from './custom/custom.component';
     DataComponent,
     DesignComponent,
     PassComponent,
-    CustomComponent
-    
-    
+    CustomComponent,
+    MyHighLighterDirective
   ],
+
   imports: [
     BrowserModule,
     FormsModule, ReactiveFormsModule,
     HttpModule
   ],
-  providers: [],
+  
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
