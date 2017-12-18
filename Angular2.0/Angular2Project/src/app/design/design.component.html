@@ -11,6 +11,11 @@
 <p>{{3.123 | number: '2.2-3'}}</p>
 <p>{{3.123 | number: '1.4-4'}}</p>
 <p>{{3.123 | number: '2.2-2'}}</p>
+<h5>currency transformation</h5>
+<p>{{3.123 | currency:'EUR'}}</p>
+<p>{{3.123 | currency:'EUR':true}}</p>
+<p>{{3.123 | currency:'USD':true}}</p>
+<p>{{3.123 | currency:'GBP':true}}</p>
 <label>Name: </label>
 <input [(ngModel)]="data.name" />
 <p>My name is {{data.name}}</p>
