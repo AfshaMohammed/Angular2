@@ -14,6 +14,8 @@ export class ChildComponent implements OnInit {
 		this.cone = !this.cone;
 		this.ctwo = !this.ctwo; 
 	}
+	public showme = true;
+	
   constructor() { }
 
   ngOnInit() {

@@ -2,8 +2,10 @@
 
   
  <p> One more component</p>
-
+<h5>Attribute Directives</h5>
 <p [ngClass]="{classOne:cone,classTwo:ctwo}">ngclass property</p>
 
 <p [ngStyle]="{'font-style':style, 'font-size':size}">ngstyle property</p>
 <button (click)="toggle()">Toggle</button> <br/>
+
+<p *ngIf="showme">structural directive</p>
