@@ -17,9 +17,10 @@ import {CustomComponent} from './custom/index';
 export class AppComponent {
   title = 'app works!';
 
-  data = {
-  name: "Chris",
-  color: "white"
+  person = {
+  	fname: "Afsha",
+  	lname:"Mohammed",
+  	gender:"female"
   };
 
   

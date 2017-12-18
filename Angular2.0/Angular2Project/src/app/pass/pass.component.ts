@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./pass.component.css']
 })
 export class PassComponent implements OnInit {
-@Input() data;
+	@Input() person;
   constructor() { }
 
   ngOnInit() {
