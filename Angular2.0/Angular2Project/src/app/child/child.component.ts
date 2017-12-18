@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ChildComponent implements OnInit {
 	public cone = true;
 	public ctwo = true;
+	public style = "italic";
+	public size = "36px";
   constructor() { }
 
   ngOnInit() {
