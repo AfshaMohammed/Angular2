@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./child.component.css']
 })
 export class ChildComponent implements OnInit {
-
+	public cone = true;
+	public ctwo = true;
   constructor() { }
 
   ngOnInit() {
