@@ -6,7 +6,11 @@
 <p>{{name | uppercase}}</p>
 <p>{{name | lowercase}}</p>
 <p>{{name | slice:'2':'5'}}</p>
-
+<p>{{3.123}}</p>
+<p>{{3.123 | number: '1.2-3'}}</p>
+<p>{{3.123 | number: '2.2-3'}}</p>
+<p>{{3.123 | number: '1.4-4'}}</p>
+<p>{{3.123 | number: '2.2-2'}}</p>
 <label>Name: </label>
 <input [(ngModel)]="data.name" />
 <p>My name is {{data.name}}</p>
