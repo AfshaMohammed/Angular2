@@ -13,7 +13,8 @@
 	<form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
 		<div class="form-group">
 			<label>Name:</label>
-			<input type="text" class="form-control" name="name" [ngModel]="name"> 
+			<input type="text" class="form-control" name="name" [(ngModel)]="name"> 
+			<p>Your name is {{name}}</p>
 		</div>
 		<div class="form-group">
 			<label>Email:</label>
