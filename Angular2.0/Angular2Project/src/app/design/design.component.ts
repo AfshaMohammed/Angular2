@@ -15,6 +15,7 @@ myName = "Afsha"
       console.log(value);
   }
   public name = "ThePokeMon";
+  date = new Date();
   constructor() { }
 
   ngOnInit() {

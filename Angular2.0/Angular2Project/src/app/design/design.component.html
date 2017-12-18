@@ -16,6 +16,12 @@
 <p>{{3.123 | currency:'EUR':true}}</p>
 <p>{{3.123 | currency:'USD':true}}</p>
 <p>{{3.123 | currency:'GBP':true}}</p>
+<h5>Date formate</h5>
+<p>{{date}}</p>
+<p>{{date | date:'fullDate'}}</p>
+<p>{{date | date:'shortDate'}}</p>
+<p>{{date | date:'mediumTime'}}</p>
+<p>{{date | date:'shortTime'}}</p>
 <label>Name: </label>
 <input [(ngModel)]="data.name" />
 <p>My name is {{data.name}}</p>

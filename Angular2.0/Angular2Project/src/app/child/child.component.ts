@@ -19,6 +19,7 @@ export class ChildComponent implements OnInit {
 		console.log(value);
 	}
 	public name = "Afsha";
+	
   constructor() { }
 
   ngOnInit() {
