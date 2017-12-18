@@ -18,6 +18,7 @@ export class ChildComponent implements OnInit {
 	onSubmit(value:any){
 		console.log(value);
 	}
+	public name = "Afsha";
   constructor() { }
 
   ngOnInit() {
