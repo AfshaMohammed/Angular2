@@ -10,6 +10,10 @@ export class ChildComponent implements OnInit {
 	public ctwo = true;
 	public style = "italic";
 	public size = "36px";
+	toggle(){
+		this.cone = !this.cone;
+		this.ctwo = !this.ctwo; 
+	}
   constructor() { }
 
   ngOnInit() {
