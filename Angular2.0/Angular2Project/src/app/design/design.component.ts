@@ -14,6 +14,7 @@ myName = "Afsha"
   onSubmit(value:any){
       console.log(value);
   }
+  public name = "ThePokeMon";
   constructor() { }
 
   ngOnInit() {
