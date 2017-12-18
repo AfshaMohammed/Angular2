@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./custom.component.css']
 })
 export class CustomComponent implements OnInit {
-	public fname="Afsha";
-	public lname="Mohammed";
+	public firstname="Afsha";
+	public lastname="Mohammed";
+
   constructor() { }
 
   ngOnInit() {

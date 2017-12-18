@@ -15,7 +15,9 @@ export class ChildComponent implements OnInit {
 		this.ctwo = !this.ctwo; 
 	}
 	public showme = true;
-	
+	onSubmit(value:any){
+		console.log(value);
+	}
   constructor() { }
 
   ngOnInit() {
