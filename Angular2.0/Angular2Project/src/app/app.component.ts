@@ -6,13 +6,15 @@ import {DataComponent} from './data/index';
 import {DesignComponent} from './design/index';
 import {PassComponent} from './pass/index';
 import {CustomComponent} from './custom/index';
+import 'zone.js';
+import 'reflect-metadata';
+
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
-  
 })
 export class AppComponent {
   title = 'app works!';
@@ -22,6 +24,4 @@ export class AppComponent {
   	lname:"Mohammed",
   	gender:"female"
   };
-
-  
 }

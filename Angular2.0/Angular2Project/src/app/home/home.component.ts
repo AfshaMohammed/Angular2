@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import 'zone.js';
+import 'reflect-metadata';
 
 
 @Component({
